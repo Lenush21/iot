@@ -11,7 +11,9 @@ import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 
 @Service
+
 public class DataService {
+
 
     private static String DATA_URL = "http://10.0.11.113:19999/WeatherForecast";
 
